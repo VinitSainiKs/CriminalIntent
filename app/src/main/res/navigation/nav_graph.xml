@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/crimeListFragment">
+
+    <fragment
+        android:id="@+id/crimeFragment_dest"
+        android:name="com.example.criminalintent.CrimeFragment"
+        android:label="CrimeFragment" />
+    <fragment
+        android:id="@+id/crimeListFragment"
+        android:name="com.example.criminalintent.CrimeListFragment"
+        android:label="CrimeListFragment" />
+</navigation>
